@@ -27,6 +27,7 @@
                         UPDATE netland.series 
                         SET
                             country = '${_POST['country']}',
+                            description = '${_POST['description']}',
                             language = '${_POST['language']}',
                             rating = '${_POST['rating']}',
                             seasons = '${_POST['seasons']}',
